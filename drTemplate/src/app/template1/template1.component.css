@@ -1,0 +1,68 @@
+body {
+    font-family: 'century gothic', sans-serif;
+}
+
+  .bg-template {
+      background-image: url(../../assets/images/Dr-template.jpg);
+      background-position: top;
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: contain;
+      min-height: 100vh;
+  }
+
+.year-count {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffffff;
+    padding: 8px;
+    width: 80px;
+    height: 80px;
+    background-color: #0BC8A0;
+    border-radius: 50%;
+}
+.year-label {
+    color: #0BC8A0;
+    font-size: 30px;
+}
+
+.dr-name {
+    font-size: 60px;
+    font-weight: bold;
+    color: #057684;
+    margin-top: 50px;
+
+}
+
+.dr-desg {
+    font-size: 30px;
+    color: #057684;
+
+}
+
+.clip-polygon {
+    clip-path: inset(25px round 75px);
+    transform: rotate(45deg);
+    width: 330px;
+    height: 330px;
+    margin-left: 20px;
+    margin-top: -50px;
+  }
+
+  .clip-polygon img {
+      transform: rotate(-45deg);
+      width: 330px;
+      height: 330px;
+  }
+  .footer-contact {
+      color: #057684;
+  }
+
+  .img-phone {
+      width: 25px;
+      height: auto;
+      fill: #057684;
+  }
